@@ -1,0 +1,143 @@
+.home-page-session {
+  background: var(--Primary, #e3e8f8);
+  width: 80vw;
+}
+
+.input-area {
+  height: 50vh;
+  background: var(--Secondary, #f5f5f5);
+  box-shadow: 2px 4px 16px 0px rgba(32, 53, 98, 0.47);
+
+  margin: 40px 24px 0px 32px;
+  border-radius: 10px;
+}
+
+.para-1 {
+  color: var(--accent, #203562);
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 30px 0 0 45px;
+}
+
+.para-2 {
+  color: var(--accent, #203562);
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 25px 0 0 45px;
+}
+
+.input-title {
+  border: none;
+  color: var(--accent, #203562);
+  background: var(--Secondary, #f5f5f5);
+  /* para */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.input-text {
+  border: none;
+  width: 90%;
+  height: 20vh;
+  resize: none;
+  margin-top: 25px;
+  margin-left: 45px;
+  color: var(--accent, #203562);
+  background: var(--Secondary, #f5f5f5);
+  opacity: 0.7;
+  /* para */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.submit-btn {
+  background-color: #203562;
+  color: #f5f5f5;
+  padding: 9px 20px ;
+  margin-left: 45px;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.notes-title {
+  display: flex;
+  column-gap: 10px;
+  margin: 50px 0 0 10px;
+  color: #203562;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.recent-text {
+  color: #203562;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 15px 0 0 15px;
+}
+
+.display-notes {
+  width: 280px;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 16px 0px rgba(32, 53, 98, 0.47);
+  margin: 40px 0 0 20px;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading-container > p {
+  color: #203562;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.icons-container {
+  color: #203562;
+  display: flex;
+  column-gap: 8px;
+}
+
+.display-sam {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-notes > p {
+  text-align: start;
+  font-family: Montserrat;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.date {
+  color: #203562;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+}
